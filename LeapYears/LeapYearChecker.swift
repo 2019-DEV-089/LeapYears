@@ -1,5 +1,3 @@
-import Foundation
-
 class LeapYearChecker {
     static func check(year: Int) -> Bool {
         return isYearDivisbleBy400ButNotBy4000(year) || isYearDivisbleBy4ButNotBy100(year)
