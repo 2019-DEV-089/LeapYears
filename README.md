@@ -21,3 +21,9 @@ This check for leap year is based on the Gregorian Calendar with the following r
 **Note:** If you are new to XCode, in the following article you can find the different ways to run tests and view results.  
 [https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/05-running_tests.html](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/05-running_tests.html)
 
+
+## How to use leap year checker
+
+You can use the **LeapYearChecker** anywhere in the source code simply by writing
+
+`LeapYearChecker.check(year: <#T##Int#>)`
