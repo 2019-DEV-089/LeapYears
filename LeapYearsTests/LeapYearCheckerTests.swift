@@ -2,7 +2,13 @@ import XCTest
 @testable import LeapYears
 
 class LeapYearCheckerTests: XCTestCase {
-    func test_ReturnTrue_When_AYearIsDivisibleBy400() {
+    func test_ReturnFalse_When_AYearIsDivisibleBy4000() {
+        let isLeapYear = LeapYearChecker.check(year: 8000)
+        
+        XCTAssertFalse(isLeapYear)
+    }
+    
+    func test_ReturnTrue_When_AYearIsDivisibleBy400ButNotBy4000() {
         let isLeapYear = LeapYearChecker.check(year: 2000)
         
         XCTAssertTrue(isLeapYear)
