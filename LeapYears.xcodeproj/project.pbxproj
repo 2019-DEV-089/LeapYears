@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8CE327EB2206FE270026A151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE327EA2206FE270026A151 /* AppDelegate.swift */; };
-		8CE328002206FE290026A151 /* LeapYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE327FF2206FE290026A151 /* LeapYearsTests.swift */; };
+		8CE3280C220704320026A151 /* LeapYearCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3280B220704320026A151 /* LeapYearCheckerTests.swift */; };
+		8CE3280E2207057D0026A151 /* LeapYearChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3280D2207057D0026A151 /* LeapYearChecker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,8 +27,9 @@
 		8CE327EA2206FE270026A151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CE327F62206FE290026A151 /* AppInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppInfo.plist; sourceTree = "<group>"; };
 		8CE327FB2206FE290026A151 /* LeapYearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapYearsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CE327FF2206FE290026A151 /* LeapYearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearsTests.swift; sourceTree = "<group>"; };
 		8CE328012206FE290026A151 /* TestsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestsInfo.plist; sourceTree = "<group>"; };
+		8CE3280B220704320026A151 /* LeapYearCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearCheckerTests.swift; sourceTree = "<group>"; };
+		8CE3280D2207057D0026A151 /* LeapYearChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearChecker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				8CE327EA2206FE270026A151 /* AppDelegate.swift */,
+				8CE3280D2207057D0026A151 /* LeapYearChecker.swift */,
 			);
 			path = LeapYears;
 			sourceTree = "<group>";
@@ -78,7 +81,7 @@
 		8CE327FE2206FE290026A151 /* LeapYearsTests */ = {
 			isa = PBXGroup;
 			children = (
-				8CE327FF2206FE290026A151 /* LeapYearsTests.swift */,
+				8CE3280B220704320026A151 /* LeapYearCheckerTests.swift */,
 			);
 			path = LeapYearsTests;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE3280E2207057D0026A151 /* LeapYearChecker.swift in Sources */,
 				8CE327EB2206FE270026A151 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE328002206FE290026A151 /* LeapYearsTests.swift in Sources */,
+				8CE3280C220704320026A151 /* LeapYearCheckerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
