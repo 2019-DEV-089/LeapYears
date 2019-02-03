@@ -26,4 +26,4 @@ This check for leap year is based on the Gregorian Calendar with the following r
 
 You can use the **LeapYearChecker** anywhere in the source code simply by writing
 
-`LeapYearChecker.check(year: <#T##Int#>)`
+`LeapYearChecker.check(year: YearYouWishToCheck)`
