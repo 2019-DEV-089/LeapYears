@@ -7,4 +7,10 @@ class LeapYearCheckerTests: XCTestCase {
         
         XCTAssertTrue(isLeapYear)
     }
+    
+    func test_ReturnFalse_When_AYearIsDivisibleBy100ButNotBy400() {
+        let isLeapYear = LeapYearChecker.check(year: 1900)
+        
+        XCTAssertFalse(isLeapYear)
+    }
 }
